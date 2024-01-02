@@ -1,0 +1,83 @@
+
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #bd4629, #16222A);
+    background: linear-gradient(59deg, #963505, #ab4232);
+    color: white;
+    margin-top:100px;
+
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .list-unstyled{
+    font-size: small;
+  }
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  /* ... Other styles */
+
+/* Footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  transition: all 0.8s;
+}
+
+.social-network a:hover {
+  background-color: #ddd;
+}
+
+.icoFacebook {
+  color: #4968ad;
+}
+
+.icoTwitter {
+  color: #000000; /* Twitter blue color */
+}
+
+.icoLinkedin {
+  color: #0077b5;
+}
+
+.icoYoutube {
+  color: #ff0000;
+}
+
+.footer-pad p{
+  font-size: small;
+}
